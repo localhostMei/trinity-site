@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Arial Rounded MT";
+    src: url("fonts/arial-rounded-mt.ttf") format("truetype");
+    font-weight: bold;
+}
+
+* {
+    font-family: "Arial Rounded MT";
+    font-weight: bold;
+    color: #CCCCCC;
+}
+
+h1 {
+    color: #FF0000;
+    font-size: 45px;
+}
+
+h2 {
+    color: #FF0000;
+    font-size: 35px;
+}
+
+h3 {
+    color: #FF0000;
+    font-size: 25px;
+}
+
+p {
+    font-size: 25px;
+}
+
+button {
+    background: linear-gradient(to bottom, #E3E3E3, #CCCCCC);
+    border-radius: 1.5rem;
+    border-style: none;
+    font-size: 35px;
+    color: white;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #FF3131, #F00000);
+}
+
+#form-button {
+    max-width: 330px;
+    height: 100px;
+}
+
+#download-button {
+    max-width: 480px;
+    height: 120px;
+    margin-top: 10rem;
+}
+
+#submit-button {
+    max-width: 330px; 
+    font-size: 35px;
+}
+
+strong {
+    color: #A7A7A7;
+}
+
+mark {
+    color: #FF0000;
+    background: none;
+    padding: 0;
+}
+
+header {
+    font-size: 25px;
+    background-color: #A7A7A7;
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #FF0000;
+}
+
+.nav-link:focus
+{
+    color: #F00000;
+}
+
+.hero {
+    background: linear-gradient(to bottom, white, #CCCCCC);
+}
+
+.hero .container {
+    min-height: 250px;
+}
+
+#features img, #features p{
+    max-width: 500px;
+    width: 100%
+}
+
+#plain h1:first-of-type {
+    padding-top: 10rem;
+}
+
+#plain h2 {
+    color: #A7A7A7;
+}
+
+#plain a {
+    color: #FF0000;
+    text-decoration: none;
+}
+
+#plain a:hover {
+    text-decoration: underline;
+}
+
+#plain img {
+    max-width: 550px;
+    width: 100%;
+}
+
+#plain ul {
+    list-style: none;
+    font-size: 25px;
+}
+
+footer {
+    font-size: 20px;
+    background-color: #CCCCCC;
+}
+
+footer .nav-link {
+    padding: 0;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
